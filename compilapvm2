@@ -1,0 +1,1 @@
+gcc -O -I/usr/share/pvm3/include  -DSYSVBFUNC -DSYSVSTR -DNOGETDTBLSIZ -DSYSVSIGNAL -DNOWAIT3 -DNOUNIXDOM -o $HOME/pvm3/bin/LINUX/$1 $1.c  -L/usr/share/pvm3/lib/LINUX -lgpvm3 -lpvm3 -lnsl 
